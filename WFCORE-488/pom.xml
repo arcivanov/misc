@@ -342,6 +342,6 @@
     <modules>
         <module>lib</module>
         <module>ejb</module>
-        <module>war</module>
+        <module>web</module>
     </modules>
 </project>
