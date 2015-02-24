@@ -68,6 +68,10 @@
                     <ejbVersion>3.2</ejbVersion>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>org.jboss.jandex</groupId>
+                <artifactId>jandex-maven-plugin</artifactId>
+            </plugin>
         </plugins>
     </build>
 

@@ -42,7 +42,7 @@
         <ver.plugin.maven-resources>2.7</ver.plugin.maven-resources>
         <ver.plugin.maven-site>3.4</ver.plugin.maven-site>
         <ver.plugin.maven-exec>1.3.2</ver.plugin.maven-exec>
-        <ver.plugin.jandex>1.0.1</ver.plugin.jandex>
+        <ver.plugin.jandex>1.0.3</ver.plugin.jandex>
         <!-- Dependency Versions -->
         <!-- WildFly Versions -->
         <ver.dep.wildfly>8.2.0.Final</ver.dep.wildfly>
