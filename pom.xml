@@ -259,5 +259,6 @@
         <module>scenario1</module>
         <module>scenario2</module>
         <module>scenario3</module>
+        <module>scenario4</module>
     </modules>
 </project>
