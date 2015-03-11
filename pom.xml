@@ -41,7 +41,7 @@
         <!-- WildFly Versions -->
         <ver.dep.wildfly>8.2.0.Final</ver.dep.wildfly>
         <ver.dep.javaee>1.0.2.Final</ver.dep.javaee>
-        <ver.dep.picketlink>2.7.0-SNAPSHOT</ver.dep.picketlink>
+        <ver.dep.picketlink>2.7.0.Final</ver.dep.picketlink>
     </properties>
 
     <dependencyManagement>
