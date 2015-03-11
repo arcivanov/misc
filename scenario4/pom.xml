@@ -15,5 +15,6 @@
     <modules>
         <module>war</module>
         <module>ear</module>
+        <module>ejb</module>
     </modules>
 </project>
