@@ -7,11 +7,11 @@
         <dependencies>
             <!-- You must configure the PicketLink dependency to your deployment. The dependency above is
             a reference to a static module from WildFly modules directory. -->
-            <module name="org.picketlink.core.api" export="true" meta-inf="import" annotations="true" />
-            <module name="org.picketlink.idm.api" export="true" meta-inf="import" annotations="true" />
-            <module name="org.picketlink.core" export="true" meta-inf="import" annotations="true" />
-            <module name="org.picketlink.idm" export="true" meta-inf="import" annotations="true" />
-            <module name="org.picketlink.common" export="true" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.core.api" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.idm.api" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.core" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.idm" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.common" meta-inf="import" annotations="true" />
         </dependencies>
     </sub-deployment>
 </jboss-deployment-structure>
