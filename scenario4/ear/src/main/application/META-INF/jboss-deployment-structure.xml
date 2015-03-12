@@ -2,8 +2,6 @@
 
 <jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">
     <deployment>
-    </deployment>
-    <sub-deployment name="scenario4-war.war">
         <dependencies>
             <!-- You must configure the PicketLink dependency to your deployment. The dependency above is
             a reference to a static module from WildFly modules directory. -->
@@ -13,8 +11,8 @@
             <module name="org.picketlink.idm" meta-inf="import" annotations="true" />
             <module name="org.picketlink.common" meta-inf="import" annotations="true" />
         </dependencies>
-    </sub-deployment>
-    <sub-deployment name="scenario4-ejb.jar">
+    </deployment>
+    <sub-deployment name="scenario4-war.war">
         <dependencies>
             <!-- You must configure the PicketLink dependency to your deployment. The dependency above is
             a reference to a static module from WildFly modules directory. -->
