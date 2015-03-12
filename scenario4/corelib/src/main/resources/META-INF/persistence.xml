@@ -15,12 +15,12 @@
         <class>org.picketlink.idm.jpa.model.sample.simple.PasswordCredentialTypeEntity</class>
         <class>org.picketlink.idm.jpa.model.sample.simple.AttributeTypeEntity</class>
         <properties>
-      <!-- Properties for Hibernate -->
+            <property name="javax.persistence.schema-generation.database.action" value="drop-and-create" />
+            <!-- Properties for Hibernate -->
             <property name="hibernate.format_sql" value="true" />
             <property name="hibernate.use_sql_comments" value="true" />
             <property name="hibernate.show_sql" value="true" />
             <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect" />
-            <property name="hiberante.hbm2ddl.auto" value="create" />
         </properties>
     </persistence-unit>
 </persistence>
