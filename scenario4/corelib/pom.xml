@@ -22,10 +22,21 @@
             <artifactId>jboss-javaee-7.0</artifactId>
             <type>pom</type>
         </dependency>
-
         <dependency>
             <groupId>org.picketlink</groupId>
             <artifactId>picketlink-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.picketlink</groupId>
+            <artifactId>picketlink-idm-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.picketlink</groupId>
+            <artifactId>picketlink-idm-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.picketlink</groupId>
+            <artifactId>picketlink-idm-simple-schema</artifactId>
         </dependency>
     </dependencies>
     <build>

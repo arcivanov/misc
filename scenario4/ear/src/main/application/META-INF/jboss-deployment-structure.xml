@@ -10,6 +10,7 @@
             <module name="org.picketlink.core" meta-inf="import" annotations="true" />
             <module name="org.picketlink.idm" meta-inf="import" annotations="true" />
             <module name="org.picketlink.common" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.idm.schema" meta-inf="import" annotations="true" />
         </dependencies>
     </deployment>
     <sub-deployment name="scenario4-war.war">
@@ -21,6 +22,7 @@
             <module name="org.picketlink.core" meta-inf="import" annotations="true" />
             <module name="org.picketlink.idm" meta-inf="import" annotations="true" />
             <module name="org.picketlink.common" meta-inf="import" annotations="true" />
+            <module name="org.picketlink.idm.schema" meta-inf="import" annotations="true" />
         </dependencies>
     </sub-deployment>
 </jboss-deployment-structure>
